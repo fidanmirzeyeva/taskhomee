@@ -1,0 +1,36 @@
+JS html faylina 2 cur yazila biler.
+1.External   2.Internal
+  Internal <script> tag-i vasitesile ve head -in daxilinde yazilir.
+  External ise body-nin icerisinde <script src=""> vasitesile yazilir.Ve yaxsi olardi ki, bu teqi body bitmezden evvel sonda yazaq.Sebebi ise butun kodlar setir-setir oxusun ve sonra js-le baglansin.
+
+JS-de 3 cur deyisen teyin ede bilerik.Bunlar 1)var 2)let 3)const.
+-var demek olar ki,let-le eyni roldadir.Lakin kohne versiyadir.
+-let ise yeni versiya.
+-const sabit deyisenler ucun nezerde tutulub.
+
+-Qisa yazilislar:
+Meselen,i=i+1 yazmaq isteyirik => i+=1 eynigucludurler.
+i=i*5 => i*=5 seklinde yazmaq olar.
+
+JS datatypes:
+1)String.  2)Number.  3)Bigint.  4)Boolean.  5)Undefined.  6)Null.  7)Symbol.  8)Object.
+ 
+JS operatorlar:
+-riyazi operatorlar:+,-,*,/,%,++.--
+-Muqayise operatorları: 1)beraberlik (==)  2)ferqlidir(!=)  3)boyukdur (>)  4)kicikdir (<) 5)boyuk beraberdir(>=)  6)kicik beraberdir(<=)
+-sert operatoru (ternary) ? : => verilen serti yoxlayir  eger dogrudursa,birinci ifadeni deyilse,2ci ifadeni isledir.
+       var a = 10;  
+       var b = 20;  
+          ----  
+       Nəticə olaraq  
+       ((a > b) ? 100 : 200) => 200   
+       ((a < b) ? 100 : 200) => 100
+
+JS Array Metodlari:
+Array-de elementler 0dan baslayaraq nomrelenir.
+
+1)pop-array-in sonundan 1 element silir
+2)push-array-in sonuna element elave edir
+3)array.length-array-in uzunlugunu teyin edir		 	
+4)shift-array-in ilk elementini silir
+5)unshift-array-in evveline element atir
